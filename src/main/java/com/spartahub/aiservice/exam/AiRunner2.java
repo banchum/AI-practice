@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-@Component
+//@Component
 public class AiRunner2 implements CommandLineRunner {
 
     @Autowired
