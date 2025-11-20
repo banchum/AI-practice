@@ -23,4 +23,12 @@ public class SentimentResponse {
     public void setReason(String reason) {
         this.reason = reason;
     }
+
+    @Override
+    public String toString() {
+        return "SentimentResponse{" +
+                "sentiment=" + sentiment +
+                ", reason='" + reason + '\'' +
+                '}';
+    }
 }
