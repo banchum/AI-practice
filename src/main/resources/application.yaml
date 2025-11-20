@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: ai-service
+  ai:
+    model:
+      chat: ollama
+    ollama:
+      base-url: http://localhost:11434
+      chat:
+        options:
+          model: huihui_ai/kanana-nano-abliterated
+          temperature: 0.5
+      init:
+        pull-model-strategy: when_missing
+        timeout: 180s
+        max-retries: 1
