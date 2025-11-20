@@ -27,7 +27,7 @@ public class AiRunner5 implements CommandLineRunner {
                         .param("tone", "근엄한"))
                 .user(s->s.text(r2, StandardCharsets.UTF_8)
                         .param("content","가스라이팅")
-                        .param("adjective","지적하는"))
+                        .param("adjective","지적하는 사람을 지적하는"))
                 .call()
                 .content();
         System.out.println(response);
